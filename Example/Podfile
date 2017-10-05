@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMEpisodeListVCManager_Example' do
+  pod 'AHFMEpisodeListVCManager', :path => '../'
+
+  target 'AHFMEpisodeListVCManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
