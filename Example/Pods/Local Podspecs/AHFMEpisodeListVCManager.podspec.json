@@ -1,0 +1,45 @@
+{
+  "name": "AHFMEpisodeListVCManager",
+  "version": "0.1.0",
+  "summary": "A short description of AHFMEpisodeListVCManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iOSModularization/AHFMEpisodeListVCManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ivsall2012": "ivsall2012@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSModularization/AHFMEpisodeListVCManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AHFMEpisodeListVCManager/Classes/**/*",
+  "dependencies": {
+    "AHFMModuleManager": [
+
+    ],
+    "AHFMEpisodeListVCServices": [
+
+    ],
+    "AHFMDataCenter": [
+
+    ],
+    "AHFMNetworking": [
+
+    ],
+    "AHFMDataTransformers": [
+
+    ],
+    "AHServiceRouter": [
+
+    ],
+    "AHDownloadTool": [
+
+    ]
+  }
+}

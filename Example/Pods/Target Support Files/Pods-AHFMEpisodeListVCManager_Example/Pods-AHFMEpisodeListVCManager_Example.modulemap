@@ -1,0 +1,6 @@
+framework module Pods_AHFMEpisodeListVCManager_Example {
+  umbrella header "Pods-AHFMEpisodeListVCManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
