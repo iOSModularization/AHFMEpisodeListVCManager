@@ -108,13 +108,7 @@ class Manager: NSObject {
                         }
                         
                         AHFMEpisode.write {
-                            do {
-                                // it's ok to have failed inserted ones since they are already in the DB. And here we don't need to update any episode.
-                                try AHFMEpisode.insert(models: eps)
-                                
-                            }catch let error{
-                                print("AHFMEpisodeListVCManager AHFMEpisodeListVC(shouldLoadEpisodes) :\(error) ")
-                            }
+                            AHFMEpisode.insert(models: eps)
                         }
                         
                     }
